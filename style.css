@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.container {
+    position: relative;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    position: absolute;
+    left: 109px;
+    top: 9px;
+}
+
+.box1:hover {
+    transform: translateX(100px);
+    transform: rotate(90deg);
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 109px;
+    top: 109px;
+}
+
+.box2:hover {
+    transform: translateX(-100px);
+    transform: rotate(90deg);
+    left: 9px;
+}
+
+.message {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    left: 109px;
+    top: 9px;
+    text-align: center;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: dimgray;
+    position: absolute; 
+    left: 209px;
+    top: 9px;
+}
+
+.box3:hover {
+    transform: translateY(100px);
+    transform: rotate(90deg);
+    left: 309px;
+}
+
+.box4 {
+    position:absolute;
+    left: 209px;
+    top: 109px;
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    position: absolute;
+}
+
+.box4:hover {
+    transform: translate(400px, 400px);
+    transition: 300ms;
+    transform: rotate(90deg);
+    left: 309px;
+
+}
